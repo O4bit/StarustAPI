@@ -1,0 +1,26 @@
+[package]
+name = "starust-api"
+version = "1.0"
+edition = "2025"
+authors = ["O4bit"]
+description = "A remade version of starapi in rust ;p"
+
+[dependencies]
+poise = "0.6"
+serenity = { version = "0.12", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+sysinfo = "0.30"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+anyhow = "1.0"
+dotenv = "0.15"
+local-ip-address = "0.5"
+rand = "0.8"
+
+[dev-dependencies]
+tokio-test = "0.4"
