@@ -1,4 +1,4 @@
-# 2tarAPI - Discord Bot in Rust 🦀
+# StarustAPI - Discord Bot in Rust 🦀
 
 My first Remaking of "StarAPI" a simple API / Discord Bot with some quirks and gismos then and there.
 
